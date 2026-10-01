@@ -1,0 +1,4 @@
+import Interior from '@/components/Interior';
+export default function Page(){return <Interior eyebrow="SERVICIOS" title="Accesos pensados para distintos niveles de uso." intro="Los precios y modalidades se definirán cuando el alcance comercial quede cerrado. La arquitectura ya separa demo pública, acceso profesional y soluciones institucionales." items={[
+{k:'DEMO',t:'Acceso público',d:'Una muestra acotada de capacidades y contenidos.'},{k:'PRO',t:'AgroClima PRO',d:'Mapas, series, análisis, alertas e informes para usuarios profesionales.'},{k:'INSTITUCIONAL',t:'Soluciones a medida',d:'Configuraciones, territorios, variables, reportes y soporte adaptados a cada organización.'},{k:'SERVICIOS',t:'Informes especializados',d:'Productos periódicos o bajo demanda con estructura y trazabilidad definidas.'}
+]}/>}

@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer(){return <footer><div><b>SAT-AGRO AMÉRICAS</b><p>Del satélite al territorio.</p></div><div className="footerLinks"><Link href="/proyecto">Proyecto</Link><Link href="/datos">Datos y fuentes</Link><Link href="/institucional">Institucional</Link><Link href="/contacto">Contacto</Link></div><small>Plataforma en desarrollo · Las integraciones operativas se publicarán con trazabilidad de fuente y fecha.</small></footer>}

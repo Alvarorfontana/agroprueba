@@ -1,0 +1,4 @@
+import Interior from '@/components/Interior';
+export default function Page(){return <Interior eyebrow="INSTITUCIONAL" title="Quiénes somos y cómo trabajamos." intro="Esta página alojará la presentación institucional, equipo, gobernanza, metodología y alianzas del proyecto, sin sobrecargar la portada." items={[
+{k:'MISIÓN',t:'Información para decidir',d:'Construir una plataforma confiable, accesible y orientada a problemas territoriales concretos.'},{k:'EQUIPO',t:'Capacidades multidisciplinarias',d:'Clima, hidrología, teledetección, producción, datos, tecnología y comunicación.'},{k:'MÉTODO',t:'Rigor y transparencia',d:'Fuentes identificadas, supuestos visibles y separación entre dato, análisis y señal.'},{k:'RED',t:'Cooperación',d:'Una arquitectura preparada para integrar organismos, universidades, centros científicos y actores regionales.'}
+]}/>}

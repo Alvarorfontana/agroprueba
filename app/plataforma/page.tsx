@@ -1,0 +1,4 @@
+import Interior from '@/components/Interior';
+export default function Page(){return <Interior eyebrow="AGROCLIMA PRO" title="La complejidad vive acá, no en la portada." intro="El entorno profesional concentrará mapas GIS, series, alertas, análisis, modelos e informes. Esta ruta queda preparada para incorporar los módulos operativos existentes." items={[
+{k:'GIS',t:'Mapa multicapas',d:'Territorio, variables, fuentes, escalas y herramientas de exploración.'},{k:'ANÁLISIS',t:'Series e indicadores',d:'Comparaciones temporales, anomalías y contexto estadístico.'},{k:'ALERTAS',t:'Monitoreo',d:'Separación clara entre alertas oficiales y señales analíticas SAT-AGRO.'},{k:'INFORMES',t:'Centro de Informes',d:'Selección de área, variables y período para generar productos con mapas, gráficos e interpretación.'}
+]}/>}

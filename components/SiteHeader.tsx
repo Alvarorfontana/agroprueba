@@ -1,0 +1,3 @@
+import Link from 'next/link';
+const links=[['Proyecto','/proyecto'],['Qué hacemos','/que-hacemos'],['Regiones','/regiones'],['Demo','/demo'],['Datos','/datos'],['Institucional','/institucional']];
+export default function SiteHeader(){return <header className="header"><Link className="brand" href="/"><span className="mark">◒</span><span>SAT-AGRO<small>AMÉRICAS</small></span></Link><nav>{links.map(([n,h])=><Link key={h} href={h}>{n}</Link>)}</nav><div className="headActions"><Link className="textLink" href="/planes">Planes</Link><Link className="button buttonSmall" href="/contacto">Solicitar demo</Link></div></header>}
